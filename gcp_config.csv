@@ -1,0 +1,4 @@
+profile,project,credentials_file,gcloud_config
+de,learn-by-doing-data-engg,$HOME/gcloud/learn-by-doing-data-engg-cfe.json,de
+you,youtube-org-demo,$HOME/gcloud/youtube.json,youtube
+admin,johneysadminproject,$HOME/gcloud/johneysadminproject.json,default
