@@ -4,8 +4,21 @@ gittest() {
   git push
 }
 
+gitbranches() {
+  git checkout main
+  git branch test
+  git push origin test
+  git branch qa
+  git push origin qa
+  git pull origin main
+  git branch dev
+  git push origin dev
+  git checkout dev
+  git checkout -b feature/synthia-scheam-validate
+}
+
 # Cleanup after updating gitignore
-git rm --cached `git ls-files -i -c --exclude-from=.gitignore`
+# git rm --cached `git ls-files -i -c --exclude-from=.gitignore`
 
 # Forced Cleanup
 # rm -rf .git
